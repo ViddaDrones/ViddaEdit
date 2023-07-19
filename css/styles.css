@@ -595,7 +595,7 @@ progress {
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "Â— ";
 }
 
 .img-fluid {
@@ -10955,6 +10955,13 @@ header.masthead h1, header.masthead .h1 {
 @media (min-width: 1200px) {
   header.masthead h1, header.masthead .h1 {
     font-size: 3.5rem;
+  }
+}
+/* Additional styles for fullscreen masthead on small screens */
+@media (max-width: 991px) {
+  header.masthead {
+    height: 100vh;
+    min-height: unset;
   }
 }
 
