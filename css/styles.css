@@ -10965,7 +10965,7 @@ header.masthead h1, header.masthead .h1 {
     min-height: unset;
     background-position: 68% center; /* Center the image horizontally at 68% */
         padding-top: 4.5rem;
-    padding-bottom: 0;
+    padding-bottom: 4.5rem;
     
   }
 }
